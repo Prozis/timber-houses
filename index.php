@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <title>Дома из бруса</title>
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
+  <header class="header" style="background-image: url(/img/background.jpg)">
     <div class="header_inner">
       <img src="img/home.png" alt="">
       <div class="header_name">
         Timber House
-
       </div>
       <a href="tel:+0930909234" class="phone">+7(035) 277-00-00</a>
       <div class="header_title">
@@ -27,15 +28,15 @@
   </header>
 
   <main class="main">
-    <div class="main_title">
+    <div class="container">
+      <div class="main_title">
       Строительство домов и бань из
       строганного и профилированного бруса
     </div>
     <div class="main_text">
       За 10 лет мы возвели больше 250 домов и бань из бруса
-      ИМЕЕМ БОЛЬШОЙ ОПЫТ В СТРОИТЕЛЬСТВЕ
+      ИМЕЕМ БОЛЬШОЙ ОПЫТ В СТРОИТЕЛЬСТВЕ
       гарантируем качество и надежность всех построенных нами объектов
-
       ГАРАНТИЯ НА ДОМА И БАНИ ИЗ БРУСА 3 ГОДА
 
     </div>
@@ -73,11 +74,14 @@
           </div>
           </div>
       </div>
+      </div>
       <div class="download">
         <img src="img/home-downloads.png" alt="">
         <a href="#">СКАЧАТЬ ВЕСЬ КАТАЛОГ ДОМОВ</a>
       </div>
-      <div class="gallery">
+      <div class="container">
+
+          <div class="gallery">
         <div class="gallery_title">
           ФОТОГРАФИИ НАШИХ РАБОТ
         </div>
@@ -103,13 +107,17 @@
         <img src="img/main-img.png" alt="">
 
       </div>
-
+        </div>
   </main>
   <footer class="footer">
+    <div class="container">
+
+
     <a href="tel:+0930909234" class="phone">+7(035) 277-00-00</a>
     <div class="footer_email">
       namename@gmail.com
     </div>
+      </div>
   </footer>
 </body>
 </html>
