@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Дома из бруса</title>
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/magnific-popup.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
@@ -46,12 +47,11 @@
     </div>
 
     <div class="projects">
+      <div class="project_title">
+        ПРОЕКТЫ ДОМОВ ИЗ БРУСА
+      </div>
 
       <div class="project_item">
-        <div class="project_title">
-          ПРОЕКТЫ ДОМОВ ИЗ БРУСА
-        </div>
-
           <div class="project_name">
             ДОМ #1
           </div>
@@ -66,13 +66,57 @@
           </div>
           <div class="project_images">
             <div class="project_images_item">
-              <img src="/img/project-1.ipg" alt="">
+              <img src="img/project-1.jpg" alt="">
             </div>
             <div class="project_images_item">
-              <img src="/img/project-2.ipg" alt="">
+              <img src="img/project-2.jpg" alt="">
             </div>
           </div>
           </div>
+          <div class="project_item">
+              <div class="project_name">
+                ДОМ #2
+              </div>
+              <div class="project_size">
+                Размер дома: 6 x 6
+              </div>
+              <div class="project_area">
+                Общая площадь дома: 54 кв. м
+              </div>
+              <div class="project_price">
+                Стоимость - 402 000 рублей
+              </div>
+              <div class="project_images">
+                <div class="project_images_item">
+                  <img src="img/project-1.jpg" alt="">
+                </div>
+                <div class="project_images_item">
+                  <img src="img/project-2.jpg" alt="">
+                </div>
+              </div>
+              </div>
+              <div class="project_item">
+                  <div class="project_name">
+                    ДОМ #3
+                  </div>
+                  <div class="project_size">
+                    Размер дома: 6 x 6
+                  </div>
+                  <div class="project_area">
+                    Общая площадь дома: 54 кв. м
+                  </div>
+                  <div class="project_price">
+                    Стоимость - 402 000 рублей
+                  </div>
+                  <div class="project_images">
+                    <div class="project_images_item">
+                      <img src="img/project-1.jpg" alt="">
+                    </div>
+                    <div class="project_images_item">
+                      <img src="img/project-2.jpg" alt="">
+                    </div>
+                  </div>
+                  </div>
       </div>
       </div>
       <div class="download">
@@ -111,13 +155,14 @@
   </main>
   <footer class="footer">
     <div class="container">
-
-
     <a href="tel:+0930909234" class="phone">+7(035) 277-00-00</a>
     <div class="footer_email">
       namename@gmail.com
     </div>
       </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

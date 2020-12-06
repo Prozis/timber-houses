@@ -4,6 +4,7 @@
   }
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   padding: 0;
   margin: 0
@@ -62,7 +63,7 @@ body {
 .header_sale {
   padding-top: 40px;
 }
-.main, .footer {
+.main {
   text-align: center;
 }
 .main_title {
@@ -81,5 +82,59 @@ body {
   color: #D07A2D;
   margin: 80px auto;
   font-size: 41px;
+}
+.project_item {
+  margin-top: 80px;
+  font-weight: 700;
 
+}
+.project_price {
+  color: green;
+}
+.project_images {
+  margin-top: 40px;
+}
+.download {
+  margin-top: 80px;
+  background-color: #f1dfbc;
+  padding: 35px;
+  text-align: center;
+}
+.download a {
+  display: block;
+  padding: 30px 40px;
+  margin: 0 auto;
+  max-width: 520px;
+  font-size: 25px;
+  border: 7px solid #effd15;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #17753b;
+}
+.gallery_title {
+  text-transform: uppercase;
+  margin-top: 100px;
+  font-weight: 700;
+  color: #D07A2D;
+  font-size: 41px;
+}
+.gallery_text {
+  margin-top: 50px;
+
+}
+.gallery_inner {
+  margin-top: 70px;
+}
+.footer {
+  text-align: center;
+}
+.footer_email {
+  padding-top: 40px;
+  padding-bottom: 150px;
+  color: #2f8bc5;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
